@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="StandaloneWin10(failed)">
+    <classes>
+      <class name="com.wisefinch.java.PlClass">
+        <methods>
+          <include name="wrapUp"/>
+          <include name="setup"/>
+          <include name="validate_Aseedtest_PL_Rev1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.wisefinch.java.PlClass -->
+    </classes>
+  </test> <!-- StandaloneWin10(failed) -->
+</suite> <!-- Failed suite [Suite] -->
